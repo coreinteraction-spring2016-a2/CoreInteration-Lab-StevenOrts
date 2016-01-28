@@ -1,0 +1,67 @@
+<!doctype html>
+
+<head>
+	<title>Demo Page</title>
+	<style>
+		div {
+
+			color:white;
+			background-color: black;
+			font-family: Helvetica;
+			font-size: 100px;
+			text-align: center;
+
+
+		}
+
+		.first-div:hover {
+
+			background-color: white;
+
+		}
+		.second-div:hover{
+
+			background-color: white;
+
+		}
+		.third-div:hover{
+
+		background-color: white;
+
+	}
+		.margin{
+			margin-top: 200px
+		}
+		.home{
+			color: black;
+			background-color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="margin">
+
+	<div class="first-div">
+		Hey! ...even snake gourds
+	</div>
+
+	<div class="second-div">
+		become Buddhas...
+	</div>
+
+	<div class="third-div">
+		don't get caught behind!
+	</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+ 
+<script>
+$( ".third-div" ).click(function() {
+  $( ".second-div" ).toggleClass("home");
+});
+</script>
+
+</body>
