@@ -1,0 +1,85 @@
+<!doctype html>
+
+<head>
+	<title>Clean</title>
+	<style>
+		div {
+
+			color:black;
+			background-color: white;
+			font-family: sans-serif;
+			font-size: 75px;
+			text-align: left;
+			margin-left: 25px
+
+
+		}
+
+		.first-div:hover {
+
+			color:white;
+			background-color: red;
+
+		}
+		.second-div:hover{
+			
+			color:white;
+			background-color: orange;
+
+		}
+		.third-div:hover{
+
+		color:white;
+		background-color: yellow;
+
+	}
+		.margin{
+			margin-top: 200px
+		}
+		.home{
+			color: white;
+			background-color: yellow;
+		}
+		.homeone{
+			color: white;
+			background-color: orange;
+		}.hometwo{
+			color: white;
+			background-color: red;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="margin">
+
+	<div class="first-div">
+		How much longer
+	</div>
+
+	<div class="second-div">
+		is my life
+	</div>
+
+	<div class="third-div">
+		a brief night...
+	</div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+ 
+<script>
+$( ".third-div" ).click(function() {
+  $( ".third-div" ).toggleClass("home");
+});
+$( ".second-div" ).click(function() {
+  $( ".second-div" ).toggleClass("homeone");
+});
+$( ".first-div" ).click(function() {
+  $( ".first-div" ).toggleClass("hometwo");
+});
+</script>
+
+</body>

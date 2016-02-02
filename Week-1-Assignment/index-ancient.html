@@ -1,0 +1,62 @@
+<!doctype html>
+
+<head>
+	<title>Ancient</title>
+	<style>
+		div {
+
+			color:black;
+			font-family: Times;
+			font-size: 15px;
+			text-align: center;
+
+
+		}
+
+		.first-div:hover {
+
+			color: purple;
+
+		}
+		.third-div{
+
+		background-color: white;
+
+	}
+		.margin{
+			margin-top: 50px
+		}
+		.home{
+			font-size: 450px;
+			color: purple;
+			
+		}
+	</style>
+</head>
+
+<body>
+	<div class="margin">
+
+	<div class="first-div">
+		Purple unto
+	</div>
+
+	<div class="second-div">
+		blackness...
+	</div>
+
+	<div class="third-div">
+		grapes!
+	</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+ 
+<script>
+$( ".third-div" ).click(function() {
+  $( ".third-div" ).toggleClass("home");
+});
+</script>
+
+</body>
