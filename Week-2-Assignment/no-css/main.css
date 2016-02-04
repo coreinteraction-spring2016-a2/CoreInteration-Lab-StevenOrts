@@ -1,0 +1,66 @@
+body {background-color: lightblue;}
+
+.header {text-align: center; 
+		font-size: 30px;
+		font-family: arial;
+		padding: 75px;
+		}
+
+.place {text-align: center;
+		font-size: 15px;
+		font-family: arial;
+		padding: 20px;
+	}
+
+.place-footer {text-align: center;
+		font-size: 15px;
+		font-family: arial;
+		padding: 20px;
+		}
+
+.desert.place {
+	color: brown;
+	background-color: orange;
+	padding color: yellow;
+	padding: 20px;
+	margin: 20px;
+	border: 20px solid yellow;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.place-footer.desert {
+	color: brown;
+	background-color: orange;
+	margin: 20px;
+}
+.jungle.place {
+	color: yellow;
+	background-color: darkgreen;
+	padding: 20px;
+	margin: 20px;
+	border: 20px solid green;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.place-footer.jungle {
+	color: yellow;
+	background-color: darkgreen;
+	margin: 20px;
+}
+.city.place {
+	color: white;
+	background-color: grey;
+	padding: 20px;
+	margin: 20px;
+	border: 20px solid black;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.place-footer.city {
+	color: white;
+	background-color: grey;
+	margin: 20px;
+}
