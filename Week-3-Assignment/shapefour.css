@@ -1,0 +1,102 @@
+.squareone {
+  width:250px;
+  height:355px;
+  top:30px;
+  left:30px;
+  background-color:rgb(81,85,174);
+  z-index:8;
+  position:absolute;
+}
+
+.squaretwo {
+  width:250px;
+  height:335px;
+  margin-top:10px;
+  margin-left:125px;
+  background-color:rgb(37,246,163);
+  z-index:9;
+  position:absolute;
+}
+
+.squarethree {
+  width:250px;
+  height:355px;
+  top:395px;
+  left:30px;
+  background-color:rgb(81,85,174);
+  z-index:10;
+  position:absolute;  
+}
+
+.yellow {
+  width: 230px;
+  height:150px;
+  margin-top:10px;
+  margin-left:10px;
+  background-color:rgb(254,208,3);
+  z-index:12;
+  position:absolute; 
+}
+
+.redsqone {
+  width:50px;
+  height:50px;
+  background-color:rgb(169,68,25);
+  position:absolute;
+  display:inline-block;
+  margin-top:0px;
+  margin-left:64px;
+}
+
+.redsqtwo {
+  width:50px;
+  height:50px;
+  background-color:rgb(169,68,25);
+  position:absolute;
+  display:inline-block;
+  margin-top:8px;
+  margin-left:120px;
+}
+
+.redsqthree {
+  width:50px;
+  height:50px;
+  background-color:rgb(169,68,25);
+  position:absolute;
+  display: inline-block;
+  margin-top:64px;
+  margin-left:8px;
+}
+
+.redsqfour {
+  width:50px;
+  height:50px;
+  background-color:rgb(169,68,25);
+  position:absolute;
+  display: inline-block;
+  margin-top:64px;
+  margin-left:64px;
+}
+
+.redsqfive {
+  width:50px;
+  height:50px;
+  background-color:rgb(169,68,25);
+  position:absolute;
+  display: inline-block;
+  margin-top:64px;
+  margin-left:120px;
+}
+
+.redsqsix {
+  width:50px;
+  height:50px;
+  background-color:rgb(169,68,25);
+  position:absolute;
+  display: inline-block;
+  margin:5px;
+  margin-top:8px;
+  margin-left:8px;
+}
+
+
