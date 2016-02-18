@@ -1,0 +1,11 @@
+.rectangle {
+	position: relative;
+	width: 300px;
+	height: 100px;
+	background-color: blue;
+	margin: 5px;
+}
+
+.offset {
+	left: 30px;
+}

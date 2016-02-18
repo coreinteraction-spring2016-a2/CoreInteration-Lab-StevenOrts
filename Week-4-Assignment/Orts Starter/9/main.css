@@ -1,0 +1,11 @@
+.rectangle {
+	position: fixed;
+	width: 1200px;
+	height: 600px;
+	background-color: blue;
+	top: 50%;
+	left: 50%;
+	margin-left: -600px;
+	margin-top: -300px;
+
+}

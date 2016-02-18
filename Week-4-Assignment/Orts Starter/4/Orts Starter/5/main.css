@@ -1,0 +1,12 @@
+.rectangle {
+	position: absolute;
+	display: inline-block;
+	width: 150px;
+	height: 300px;
+	background-color: blue;
+}
+
+.two {
+	background-color: orange;
+	left: 158px;
+}
