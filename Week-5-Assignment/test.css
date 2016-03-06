@@ -1,0 +1,10 @@
+.outer-container {
+  display: flex;
+}
+
+.words{
+	
+	font-family: helvetica;
+	font-size: 15px;
+	width: 200px;
+}
