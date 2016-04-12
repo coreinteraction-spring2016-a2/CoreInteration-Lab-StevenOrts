@@ -1,0 +1,34 @@
+body {
+	color:black;
+	font-family: Times;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.second:active {
+	font-size: 150px;
+	color: white;
+	background-color: black;
+}
+
+.first:hover {
+	color: purple;
+}
+
+.third{
+	background-color: white;
+}
+
+
+.button1{
+color: blue;
+}
+
+.button2{
+color: blue;
+}
+
+.button3{
+color: blue;
+}

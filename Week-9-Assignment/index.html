@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="main.css">
+	<title>Ancient</title>
+	
+</head>
+
+<body>
+
+<button class="button1" type="button">Helvetica</button>
+<button class="button2" type="button">Add Friut</button>
+<button class="button3" type="button" button onclick="setTimeout(myFunction, 3000);">Secret Message</button>
+
+	<div class="first">
+		Purple unto
+	</div>
+
+	<div class="second">
+		blackness...
+	</div>
+
+	<div class="third">
+		grapes!
+	</div>
+
+<div class='fruits' style='display: none;'>
+    bananas<br>
+    orange<br>
+    watermelon<br>
+    lemon<br>
+    tangerine<br>
+    kiwi<br>
+    pineapple<br>
+    apple<br>
+    blueberry<br>
+    peaches<br>
+    papaya<br>
+    mango<br>
+    pitaya<br>
+    acai<br>
+    rasberry<br>
+    strawberry<br>
+    durian<br>
+    lime<br>
+    coconut<br>
+    cranberry<br>
+    grapefruit<br>
+    clementine<br>
+    fig<br>
+    guava<br>
+    melon<br>
+    necterine<br>
+    pear</br>
+
+</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+
+
+$('.button1').click(function () {
+	$('body').css('font-family', 'Helvetica');
+});
+
+$(".button2").click(function() {
+    $(".fruits:hidden:first").show()
+});
+
+function myFunction() {
+    alert('Did you know Mt. Everest has grown one foot over the last 100 years.-Snapple');
+}
+
+
+
+
+</script>
+
+</html>
